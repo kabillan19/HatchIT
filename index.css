@@ -4,11 +4,12 @@
     display: none;
   }
   .hackit-logo {
-    height: 60px;
-    width: 141px;
+    height: 50px;
+    /* width: 141px; */
     position: relative;
-    object-fit: cover;
+    /* object-fit: cover; */
     z-index: 1;
+    margin: 5px 15px;
   }
   .label {
     position: relative;
@@ -156,6 +157,7 @@
     justify-content: space-between;
     padding: var(--padding-xs) var(--padding-61xl) var(--padding-xs) 34px;
     gap: var(--gap-xl);
+    height:60px;
   }
   .main-landing-age-inner {
     align-self: stretch;
