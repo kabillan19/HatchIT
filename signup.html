@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global-signup.css" />
+    <link rel="stylesheet" href="./signup.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap"
+    />
+  </head>
+  <body>
+    <div class="sign-up-page">
+      <img
+        class="mask-group-icon"
+        loading="lazy"
+        alt=""
+        src="./public/mask-group@2x.png"
+      />
+
+      <div class="sign-up-page-inner">
+        <form class="frame-parent">
+          <div class="frame-wrapper">
+            <div class="sign-up-parent">
+              <h1 class="sign-up">Sign up</h1>
+              <div class="create-your-account">
+                Create your account in seconds!
+              </div>
+            </div>
+          </div>
+          <div class="rectangle-parent">
+            <div class="frame-child"></div>
+            <div class="full-name">Full Name</div>
+            <input class="frame-item" placeholder="Name Name" type="text" />
+          </div>
+          <div class="rectangle-group">
+            <div class="frame-inner"></div>
+            <div class="email-address">Email Address</div>
+            <input
+              class="frame-input"
+              placeholder="info@example.com"
+              type="text"
+            />
+          </div>
+          <div class="frame-container">
+            <div class="rectangle-container">
+              <div class="rectangle-div"></div>
+              <input class="password" placeholder="Password" type="text" />
+
+              <div class="mdihide-wrapper">
+                <img class="mdihide-icon" alt="" src="./public/mdihide.svg" />
+              </div>
+            </div>
+          </div>
+          <div class="frame-div">
+            <div class="frame-group">
+              <div class="frame-wrapper1">
+                <div class="group-div">
+                  <div class="frame-child1"></div>
+                  <img
+                    class="vector-icon"
+                    loading="lazy"
+                    alt=""
+                    src="./public/vector-1.svg"
+                  />
+                </div>
+              </div>
+              <div class="i-agree-to">I agree to the</div>
+              <div class="terms-conditions">Terms & Conditions</div>
+            </div>
+          </div>
+          <button class="group-button">
+            <div class="frame-child2"></div>
+            <div class="sign-up1">Sign up</div>
+          </button>
+          <div class="frame-wrapper2">
+            <div class="frame-parent1">
+              <div class="already-have-an-account-parent">
+                <div class="already-have-an">Already have an account?</div>
+                <div class="login" id="loginText">Login</div>
+              </div>
+              <div class="frame-wrapper3">
+                <div class="frame-parent2">
+                  <div class="vector-wrapper">
+                    <img
+                      class="frame-child3"
+                      loading="lazy"
+                      alt=""
+                      src="./public/vector-2.svg"
+                    />
+                  </div>
+                  <div class="or-continue-with-wrapper">
+                    <div class="or-continue-with">Or continue with</div>
+                  </div>
+                  <div class="vector-container">
+                    <img
+                      class="frame-child4"
+                      loading="lazy"
+                      alt=""
+                      src="./public/vector-3.svg"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="frame-wrapper4">
+            <div class="frame-parent3">
+              <button class="rectangle-parent1">
+                <div class="frame-child5"></div>
+                <img class="vector-icon1" alt="" src="./public/vector.svg" />
+              </button>
+              <button class="rectangle-parent2">
+                <div class="frame-child6"></div>
+                <img class="vector-icon2" alt="" src="./public/vector-11.svg" />
+              </button>
+              <button class="rectangle-parent3">
+                <div class="frame-child7"></div>
+                <img class="vector-icon3" alt="" src="./public/vector-21.svg" />
+              </button>
+              <div class="rectangle-parent4">
+                <div class="frame-child8"></div>
+                <img
+                  class="vector-icon4"
+                  loading="lazy"
+                  alt=""
+                  src="./public/vector-31.svg"
+                />
+              </div>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <script>
+      var loginText = document.getElementById("loginText");
+      if (loginText) {
+        loginText.addEventListener("click", function (e) {
+          // Please sync "Log in page" to the project
+        });
+      }
+      </script>
+  </body>
+</html>

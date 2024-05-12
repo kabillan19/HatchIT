@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global-findwork.css" />
+    <link rel="stylesheet" href="./findwork.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap"
+    />
+  </head>
+  <body>
+    <div class="find-work">
+      <header class="menu-item-default-parent">
+        <div class="menu-item-default"></div>
+        <div class="menu-item-default1"></div>
+        <img
+          class="hackit-logo"
+          loading="lazy"
+          alt=""
+          src="./public/hackit-logo@2x.png"
+        />
+
+        <div class="hack-i-t-logo-wrapper">
+          <div class="hack-i-t-logo">
+            <nav class="hack-i-t-logo-inner">
+              <nav class="label-parent">
+                <div class="label">Find Work</div>
+                <div class="label1">Post Work</div>
+                <div class="label2">FAQ</div>
+              </nav>
+            </nav>
+            <div class="frame-parent">
+              <div class="label-wrapper">
+                <div class="label3" id="labelContainer">
+                  <div class="label4">Profile</div>
+                </div>
+              </div>
+              <div class="frame-child"></div>
+            </div>
+          </div>
+        </div>
+      </header>
+      <footer class="frame-group">
+        <div class="frame-container">
+          <div class="frame-div">
+            <div class="section-title-wrapper">
+              <h1 class="section-title">Find Work</h1>
+            </div>
+            <h3 class="description">Find your next gig on our platform !</h3>
+          </div>
+          <div class="frame-wrapper">
+            <div class="frame-parent1">
+              <div class="what-is-your-area-of-expertise-parent">
+                <h1 class="what-is-your-container">
+                  <span>What is your area of expertise or domain? </span>
+                  <span class="span">*</span>
+                </h1>
+                <div class="group-div">
+                  <div class="type-here-parent">
+                    <div class="type-here"></div>
+                    <div class="type-here1">Type here</div>
+                  </div>
+                </div>
+              </div>
+              <div class="how-many-years-of-experience-d-parent">
+                <h1 class="how-many-years-container">
+                  <span
+                    >How many years of experience do you have in this field?
+                  </span>
+                  <span class="span1">*</span>
+                </h1>
+                <div class="frame-wrapper1">
+                  <div class="rectangle-parent">
+                    <div class="frame-item"></div>
+                    <div class="answer-here">Answer Here</div>
+                  </div>
+                </div>
+              </div>
+              <div class="what-specific-services-do-you-parent">
+                <h1 class="what-specific-services-container">
+                  <span
+                    >What specific services do you offer within your domain of
+                    expertise?
+                  </span>
+                  <span class="span2">*</span>
+                </h1>
+                <div class="rectangle-wrapper">
+                  <div class="frame-inner"></div>
+                </div>
+              </div>
+              <div class="are-you-open-to-negotiating-ra-parent">
+                <h1 class="are-you-open-container">
+                  <p class="are-you-open">
+                    Are you open to negotiating rates or pricing
+                  </p>
+                  <p class="based-on-project">
+                    based on project requirements ?
+                  </p>
+                </h1>
+                <input
+                  class="answer-here1"
+                  placeholder="Answer Here "
+                  type="text"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="frame-wrapper2">
+          <div class="vector-parent">
+            <img
+              class="rectangle-icon"
+              loading="lazy"
+              alt=""
+              src="./public/rectangle-166.svg"
+              id="rectangle"
+            />
+
+            <a href="listwork.html" class="search-for-jobs">Search For Jobs</a>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script>
+      var labelContainer = document.getElementById("labelContainer");
+      if (labelContainer) {
+        labelContainer.addEventListener("click", function (e) {
+          // Please sync "Profile " to the project
+        });
+      }
+      
+      var rectangle = document.getElementById("rectangle");
+      if (rectangle) {
+        rectangle.addEventListener("click", function (e) {
+          // Please sync "Find Work " to the project
+        });
+      }
+      </script>
+  </body>
+</html>
