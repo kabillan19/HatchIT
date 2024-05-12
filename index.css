@@ -9,7 +9,7 @@
     position: relative;
     /* object-fit: cover; */
     z-index: 1;
-    margin: 5px 15px;
+    margin: 5px 80px;
   }
   .label {
     position: relative;
@@ -683,3 +683,4 @@ justify-content: center;
       padding-right: var(--padding-xl);
       box-sizing: border-box;
     }
+  }
