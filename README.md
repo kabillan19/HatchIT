@@ -24,6 +24,6 @@ We welcome contributions from the community to help improve and enhance the Hatc
 
 ## Feedback:
 
-We value feedback from our users to continually improve the HatchIT platform. If you have any suggestions, questions, or concerns, please don't hesitate to reach out to us via email at feedback@hatchit.com.
+We value feedback from our users to continually improve the HatchIT platform. If you have any suggestions, questions, or concerns, please don't hesitate to reach out to us via email at kabillan1905@gmail.com.
 
 Thank you for choosing HatchIT for your freelance needs. Happy freelancing! 🚀
